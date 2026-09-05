@@ -10,12 +10,17 @@ from .runtime import Site, Verdict
 
 WORKFLOW = '''def migrate(sites):
     observations = observe(sites[:2])
-    rule = semantic(observations, "Migrate timeouts to seconds")
+    rule = semantic(observations, "Select the source-unit migration rule for these observations")
     for site in sites:
         apply_change(site, rule)
     publish_report(sites)
     return final_validate()
 '''
+
+DECISIONS = {
+    "milliseconds": "The source unit is ms. Divide timeout by 1000 to produce timeout_s; preserve retries.",
+    "seconds": "The source unit is s. Copy timeout unchanged to timeout_s; preserve retries.",
+}
 
 
 class JsonMigrationAdapter:

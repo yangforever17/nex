@@ -3,7 +3,7 @@
 
 def migrate(sites):
     observations = observe(sites[:2])
-    rule = semantic(observations, "Migrate timeouts to seconds")
+    rule = semantic(observations, "Select the source-unit migration rule for these observations")
     for site in sites:
         apply_change(site, rule)
     publish_report(sites)

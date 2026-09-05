@@ -26,6 +26,7 @@ classifiers = [
 [project.optional-dependencies]
 dev = ["pytest>=8,<10", "pytest-cov>=5,<8", "ruff>=0.11,<1", "build>=1,<2"]
 experiments = ["numpy>=1.24,<3", "pandas>=2,<3"]
+gpu = ["torch>=2.6,<3", "transformers>=4.57,<5", "accelerate>=1,<2"]
 
 [project.scripts]
 nex = "nex.cli:main"
