@@ -1,6 +1,6 @@
-<img src="docs/assets/nex-icon.png" alt="NEX icon" width="112" align="right">
-
-# NEX
+<p align="center">
+  <img src="docs/assets/nex-logo.png" alt="NEX — Neural Execution Runtime. Keep the good work." width="820">
+</p>
 
 **Let models predict. Let the runtime keep the good work.**
 

@@ -36,7 +36,9 @@ def main() -> int:
             continue
         if relative.name.startswith(".env"):
             findings.append((str(relative), "environment file"))
-        if path.stat().st_size > 1_000_000:
+        # The reviewed raster logo has a separate, bounded artwork allowance.
+        size_limit = 2_000_000 if relative.as_posix() == "docs/assets/nex-logo.png" else 1_000_000
+        if path.stat().st_size > size_limit:
             findings.append((str(relative), "oversized release file"))
         if relative.suffix == ".png":
             continue

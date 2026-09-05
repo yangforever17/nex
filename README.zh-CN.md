@@ -1,6 +1,6 @@
-<img src="docs/assets/nex-icon.png" alt="NEX 图标" width="112" align="right">
-
-# NEX
+<p align="center">
+  <img src="docs/assets/nex-logo.png" alt="NEX — Neural Execution Runtime。保住正确的工作。" width="820">
+</p>
 
 **让模型大胆预测，让运行时保住正确的工作。**
 
