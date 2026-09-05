@@ -1,0 +1,25 @@
+name: Bug report
+description: 提供一个小而可复现的问题
+body:
+  - type: markdown
+    attributes:
+      value: 不要粘贴 API key、私有代码或敏感 trace。安全问题请按 SECURITY.md 私下报告。
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      description: Python / OS / NEX commit 或版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 最小复现
+      description: 输入、执行命令、预期行为与实际行为
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: 涉及的边界
+      description: compilation / validation / recovery / publication / documentation

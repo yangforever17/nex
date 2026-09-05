@@ -1,0 +1,10 @@
+NEX
+Copyright 2026 NEX contributors.
+
+This distribution contains the NEX reference implementation and original
+documentation assets. It does not bundle model weights, third-party runtime
+implementations, datasets, or private experiment outputs.
+
+Optional Python dependencies are installed separately and retain their own
+licenses. The Apache-2.0 license text is reproduced from GitHub's canonical
+license template. Artwork in docs/assets is original, editable NEX artwork.
