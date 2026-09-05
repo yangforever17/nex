@@ -1,3 +1,5 @@
+<img src="docs/assets/nex-icon.png" alt="NEX 图标" width="112" align="right">
+
 # NEX
 
 **让模型大胆预测，让运行时保住正确的工作。**
@@ -5,8 +7,6 @@
 [English](README.md) · 简体中文
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-123F70.svg)](LICENSE)
-
-![NEX 保留已经验证的工作，只恢复未决窗口，并在最终验证后发布。](docs/assets/overview.png)
 
 一个模型规则，多次工具调用，一个晚到反例。**为什么已经验证正确的工作也要重做？**
 

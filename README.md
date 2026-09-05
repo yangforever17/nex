@@ -1,3 +1,5 @@
+<img src="docs/assets/nex-icon.png" alt="NEX icon" width="112" align="right">
+
 # NEX
 
 **Let models predict. Let the runtime keep the good work.**
@@ -5,8 +7,6 @@
 English · [简体中文](README.zh-CN.md)
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-123F70.svg)](LICENSE)
-
-![NEX preserves validated work, repairs the unresolved window, and gates publication on final validation.](docs/assets/overview.png)
 
 One model-generated rule. Many tool calls. One late counterexample.
 **Why redo the work that already passed validation?**
